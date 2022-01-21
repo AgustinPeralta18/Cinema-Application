@@ -63,6 +63,36 @@ namespace Cinema_Application.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agenda_4374 {
+            get {
+                object obj = ResourceManager.GetObject("agenda_4374", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap agenda_43741 {
+            get {
+                object obj = ResourceManager.GetObject("agenda_43741", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_popcorn_graphic_film_cinema_popcorn_television_food_film {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-popcorn-graphic-film-cinema-popcorn-television-food-film", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Sin_título_1 {
             get {
                 object obj = ResourceManager.GetObject("Sin título-1", resourceCulture);

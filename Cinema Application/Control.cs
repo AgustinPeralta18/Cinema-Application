@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cinema_Application
 {
+    //En la clase control hacemos validaciones para verificar que los datos que este ingresando el usuario sean correcto
     class Control
     {
         //conexion entre formulario y el modelo
@@ -45,6 +46,38 @@ namespace Cinema_Application
 
             return respuesta;
 
+        }
+
+        public string ctrlLogin(string usuario, string password)
+        {
+            Modelo modelo = new Modelo();
+            string respuesta = "";
+            Usuarios datosUsuario = null;
+
+            if(string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(password))
+            {
+                respuesta = "Debe llenar todos los campos";
+            }
+            else
+            {
+                datosUsuario = modelo.porUsuario(usuario);
+                
+                //este if es para verificar si el usuario esta registrado en la base de datos
+                if(datosUsuario == null)
+                {
+                    respuesta = "El usuario no existe";
+                }
+                else
+                {
+                    //En este if verificamos si la contraseña es correcta pero como está cifrada la contraseña en la base
+                    //de datos tenemos que hacer la conversion llamando al metodo SHA1
+                    if(datosUsuario.Password != generarSHA1(password))
+                    {
+                        respuesta = "El usuario y/o contraseña no coinciden";
+                    }
+                }
+            }
+            return respuesta;
         }
 
         private string generarSHA1(string cadena)

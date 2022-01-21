@@ -55,5 +55,12 @@ namespace Cinema_Application
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            //Esto es para que aparezca el Iniciar sesion si es que ya tenemos cuenta
+            new Login().Show();
+            this.Hide();
+        }
     }
 }
