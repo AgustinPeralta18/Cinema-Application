@@ -63,6 +63,16 @@ namespace Cinema_Application.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _71FzDJSXOJL__AC_SY741_ {
+            get {
+                object obj = ResourceManager.GetObject("71FzDJSXOJL._AC_SY741_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap agenda_4374 {
             get {
                 object obj = ResourceManager.GetObject("agenda_4374", resourceCulture);
@@ -83,6 +93,76 @@ namespace Cinema_Application.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captain_America_The_Winter_Soldier_Poster_3 {
+            get {
+                object obj = ResourceManager.GetObject("Captain_America_The_Winter_Soldier_Poster_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap D_NQ_NP_904515_MLA41060791781_032020_O {
+            get {
+                object obj = ResourceManager.GetObject("D_NQ_NP_904515-MLA41060791781_032020-O", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap descarga {
+            get {
+                object obj = ResourceManager.GetObject("descarga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FE_DrZSWQA04mrr {
+            get {
+                object obj = ResourceManager.GetObject("FE_DrZSWQA04mrr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Matrix {
+            get {
+                object obj = ResourceManager.GetObject("Matrix", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Matrix_Resurrections_746425788_large {
+            get {
+                object obj = ResourceManager.GetObject("Matrix_Resurrections-746425788-large", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap patton_cartel {
+            get {
+                object obj = ResourceManager.GetObject("patton cartel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_transparent_popcorn_graphic_film_cinema_popcorn_television_food_film {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-popcorn-graphic-film-cinema-popcorn-television-food-film", resourceCulture);
@@ -96,6 +176,26 @@ namespace Cinema_Application.Properties {
         internal static System.Drawing.Bitmap Sin_título_1 {
             get {
                 object obj = ResourceManager.GetObject("Sin título-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Spider_Man_No_Way_Home_642739124_large {
+            get {
+                object obj = ResourceManager.GetObject("Spider_Man_No_Way_Home-642739124-large", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed {
+            get {
+                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

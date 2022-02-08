@@ -29,7 +29,10 @@ namespace Cinema_Application
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.panelLateral = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelSubMenuReserva = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -38,14 +41,19 @@ namespace Cinema_Application
             this.panelLogo = new System.Windows.Forms.Panel();
             this.inicio = new System.Windows.Forms.Label();
             this.panelHijo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelLateral.SuspendLayout();
             this.panelSubMenuReserva.SuspendLayout();
             this.panelLogo.SuspendLayout();
+            this.panelHijo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelLateral
             // 
             this.panelLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.panelLateral.Controls.Add(this.label1);
+            this.panelLateral.Controls.Add(this.label2);
             this.panelLateral.Controls.Add(this.panelSubMenuReserva);
             this.panelLateral.Controls.Add(this.btnReservar);
             this.panelLateral.Controls.Add(this.panelLogo);
@@ -54,6 +62,28 @@ namespace Cinema_Application
             this.panelLateral.Name = "panelLateral";
             this.panelLateral.Size = new System.Drawing.Size(250, 561);
             this.panelLateral.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(49, 329);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(136, 13);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Reclamos: 0800-111-2314";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(94, 302);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 13);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Ayuda";
             // 
             // panelSubMenuReserva
             // 
@@ -152,16 +182,26 @@ namespace Cinema_Application
             this.inicio.Size = new System.Drawing.Size(208, 30);
             this.inicio.TabIndex = 0;
             this.inicio.Text = "TICKETERA SKYNNI";
-            this.inicio.Click += new System.EventHandler(this.inicio_Click);
             // 
             // panelHijo
             // 
             this.panelHijo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.panelHijo.Controls.Add(this.pictureBox1);
             this.panelHijo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelHijo.Location = new System.Drawing.Point(250, 0);
             this.panelHijo.Name = "panelHijo";
             this.panelHijo.Size = new System.Drawing.Size(684, 561);
             this.panelHijo.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Cinema_Application.Properties.Resources.agenda_43741;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(684, 561);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Principal
             // 
@@ -170,12 +210,18 @@ namespace Cinema_Application
             this.ClientSize = new System.Drawing.Size(934, 561);
             this.Controls.Add(this.panelHijo);
             this.Controls.Add(this.panelLateral);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(970, 600);
             this.Name = "Principal";
             this.Text = "Principal";
             this.panelLateral.ResumeLayout(false);
+            this.panelLateral.PerformLayout();
             this.panelSubMenuReserva.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
+            this.panelHijo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -191,5 +237,8 @@ namespace Cinema_Application
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Panel panelHijo;
         private System.Windows.Forms.Label inicio;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

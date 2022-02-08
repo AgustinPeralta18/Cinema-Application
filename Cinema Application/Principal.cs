@@ -85,9 +85,6 @@ namespace Cinema_Application
             
         }
 
-        private void inicio_Click(object sender, EventArgs e)
-        {
-            abrirPanelHijo(new Principal());
-        }
+        
     }
 }

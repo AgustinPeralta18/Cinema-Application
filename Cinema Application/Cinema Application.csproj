@@ -106,6 +106,13 @@
     <Compile Include="FormularioPeliculas.Designer.cs">
       <DependentUpon>FormularioPeliculas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Operaciones.cs" />
+    <Compile Include="PagosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagosForm.Designer.cs">
+      <DependentUpon>PagosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagosForm.resx">
+      <DependentUpon>PagosForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -175,6 +185,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\agenda_43741.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain_America_The_Winter_Soldier_Poster_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spider_Man_No_Way_Home-642739124-large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FE_DrZSWQA04mrr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matrix.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matrix_Resurrections-746425788-large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D_NQ_NP_904515-MLA41060791781_032020-O.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71FzDJSXOJL._AC_SY741_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patton cartel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

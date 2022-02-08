@@ -118,16 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Matrix_Resurrections-746425788-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matrix_Resurrections-746425788-large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agenda_43741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agenda_43741.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spider_Man_No_Way_Home-642739124-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spider_Man_No_Way_Home-642739124-large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sin título-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sin título-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="agenda_4374" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agenda_4374.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="71FzDJSXOJL._AC_SY741_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\71FzDJSXOJL._AC_SY741_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FE_DrZSWQA04mrr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FE_DrZSWQA04mrr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_NQ_NP_904515-MLA41060791781_032020-O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D_NQ_NP_904515-MLA41060791781_032020-O.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captain_America_The_Winter_Soldier_Poster_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captain_America_The_Winter_Soldier_Poster_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="png-transparent-popcorn-graphic-film-cinema-popcorn-television-food-film" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\png-transparent-popcorn-graphic-film-cinema-popcorn-television-food-film.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="agenda_43741" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agenda_43741.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="patton cartel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patton cartel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matrix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matrix.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agenda_4374" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agenda_4374.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

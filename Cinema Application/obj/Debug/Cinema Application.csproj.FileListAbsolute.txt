@@ -40,3 +40,4 @@ C:\Users\aguss\Documents\Visual Studio 2019\Cinema Application\Cinema Applicatio
 C:\Users\aguss\Documents\Visual Studio 2019\Cinema Application\Cinema Application\obj\Debug\Cinema_Application.Login.resources
 C:\Users\aguss\Documents\Visual Studio 2019\Cinema Application\Cinema Application\obj\Debug\Cinema_Application.Principal.resources
 C:\Users\aguss\Documents\Visual Studio 2019\Cinema Application\Cinema Application\obj\Debug\Cinema_Application.FormularioPeliculas.resources
+C:\Users\aguss\Documents\Visual Studio 2019\Cinema Application\Cinema Application\obj\Debug\Cinema_Application.PagosForm.resources
